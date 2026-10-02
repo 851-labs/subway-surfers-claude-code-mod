@@ -1,0 +1,45 @@
+{
+  "name": "subway-surfers",
+  "version": "0.1.0",
+  "description": "Plays Subway Surfers gameplay in a pane while Claude works",
+  "author": {
+    "name": "851 Labs",
+    "url": "https://github.com/851-labs"
+  },
+  "homepage": "https://github.com/851-labs/subway-surfers-claude-code-mod",
+  "repository": "https://github.com/851-labs/subway-surfers-claude-code-mod",
+  "license": "MIT",
+  "keywords": [
+    "subway-surfers",
+    "brainrot",
+    "claude-code",
+    "mod"
+  ],
+  "types": "./types/index.d.ts",
+  "userConfig": {
+    "video": {
+      "type": "string",
+      "title": "Video",
+      "description": "Path or URL of a clip to play instead of the built-in one",
+      "default": ""
+    },
+    "sound": {
+      "type": "boolean",
+      "title": "Sound",
+      "description": "Play the clip's audio while it plays",
+      "default": false
+    },
+    "fps": {
+      "type": "number",
+      "title": "Frames per second",
+      "description": "Playback frame rate (decoded at this rate)",
+      "default": 12
+    },
+    "autoplay": {
+      "type": "boolean",
+      "title": "Autoplay",
+      "description": "Open and play while Claude is working, pause when it finishes",
+      "default": true
+    }
+  }
+}
